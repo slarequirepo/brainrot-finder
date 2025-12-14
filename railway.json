@@ -1,7 +1,8 @@
 {
-  "$schema": "https://railway.app/railway.schema.json",
+  "$schema": "",
   "build": {
-    "builder": "paketobuildpacks/builder:base"
+    "builder": ""
   },
-  "start": "uvicorn webhook:app --host 0.0.0.0 --port $PORT & python bot.py"
+  "start": ""
+
 }
