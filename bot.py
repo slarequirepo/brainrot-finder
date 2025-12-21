@@ -7,7 +7,7 @@ from datetime import datetime
 import requests
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-CHANNEL_ID = int(os.getenv("CHANNEL_ID", 0))  # Opcional agora
+CHANNEL_ID = int(os.getenv("CHANNEL_ID", 1448892285617180756))  # Opcional agora
 DISCORD_WEBHOOK_URL = os.getenv("https://discord.com/api/webhooks/1448892994987233300/FjVTLsLoqfkXJ24Gmg4xc8yPfRhLv8YSxtACBeJCDyDi4pWbNDcTnLSUIAX3MipUi87j")  # Webhook do Discord
 ZEABUR_WEBHOOK_URL = "brainrot-finder.zeabur.app"  # Seu servidor
 UNIVERSE_ID = 109983668079237
