@@ -9,7 +9,7 @@ import requests
 TOKEN = os.getenv("DISCORD_TOKEN")
 CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
 UNIVERSE_ID = 109983668079237
-WEBHOOK_URL = "https://brainrot-finder.zeabur.app/brainrot-alert"  # Your Zeabur URL
+WEBHOOK_URL = "brainrot-finder.zeabur.app"  # Your Zeabur URL
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
