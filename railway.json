@@ -1,8 +1,14 @@
 {
-  "$schema": "",
-  "build": {
-    "builder": ""
-  },
-  "start": ""
-
+  "name": "brainrot-finder",
+  "services": [
+    {
+      "name": "webhook",
+      "type": "web",
+      "buildCommand": "pip install -r requirements.txt",
+      "startCommand": "uvicorn webhook:app --host 0.0.0.0 --port ${PORT:-8080}",
+      "environment": {
+        "PORT": "8080"
+      }
+    }
+  ]
 }
